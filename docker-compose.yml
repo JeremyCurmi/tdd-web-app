@@ -6,6 +6,10 @@ services:
       context: ./
     volumes:
       - .:/app
+  
+  pytest:
+    build: 
+      context: ./
 
 volumes:
   python-volume:
